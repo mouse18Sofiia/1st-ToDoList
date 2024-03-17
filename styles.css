@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(104, 31, 187);
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.6rem;
+}
+
+header,
+form {
+    min-height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+}
+
+form button {
+    color: #000000;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2 ease;
+    margin-left: 0.5rem;
+}
+
+form button:hover {
+    color: white;
+    background: #000000;
+}
